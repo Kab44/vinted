@@ -1,7 +1,13 @@
+import Cards from "./components/cards.component.jsx";
+import ImageShop from "./components/home-bg.component.jsx";
+
 function Shop() {
   return (
     <>
-      <div>Shop</div>
+      <div>
+        <ImageShop />
+        <Cards />
+      </div>
     </>
   );
 }
